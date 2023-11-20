@@ -12,11 +12,14 @@ public class Principal {
 		// Creamos el Scanner.
 		Scanner sc = new Scanner(System.in);
 		
+		// Pedimos el valor al usuario para usarlo en la clase Echo.
 		System.out.print("Escribe un número entero: ");
 		numUser = sc.nextInt();
 		
+		// Invocamos la función Eco de la clase Echo, dándole de parámetro el valor introducido del usuario.
 		Echo.eco(numUser);
 		
+		// Cerramos el Scanner.
 		sc.close();
 	}
 
