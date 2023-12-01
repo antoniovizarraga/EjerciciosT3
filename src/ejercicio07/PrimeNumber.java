@@ -15,8 +15,7 @@ public class PrimeNumber {
 			 * mismo que dividir el número del usuario entre 2. */
 			for(int i = 2; i <= number / 2; i++) {
 				/* Comprueba en cada iteración si el resto de dividir el número
-				 * dado por el usuario entre la i es igual a 0 (Lo cual significa
-				 * que no es primo). De no serlo, pon false y detén el bucle. */
+				 * dado por el usuario entre la i es igual a 0. De no serlo, pon false y detén el bucle. */
 				if((number % i) == 0) {
 					isPrime = false;
 					break;
